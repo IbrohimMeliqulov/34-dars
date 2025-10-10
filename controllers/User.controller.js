@@ -1,6 +1,7 @@
 import pool from "../config/database.js";
-import * as bcrypt from "bcrypt"
-import { RegisterUser,UpdateUservalidation } from "../middleware/validation.js";
+import * as bcrypt from "bcrypt";
+
+
 
 
 const setup =async (req,res,next)=>{
